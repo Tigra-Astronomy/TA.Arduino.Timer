@@ -1,0 +1,30 @@
+{
+    "name": "TA.Arduino.Timer",
+    "version": "1.0.0",
+    "description": "A simple-to-use timer library that is great for human-scale events such as timeouts and UI elements; can time intervals up to 49.7 days with resolution of 1 ms; and doesn't suffer from millis() rollover problems.",
+    "keywords": "timing, timer, timeout, ui, human scale",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Tigra-Astronomy/TA.Arduino.Timer"
+    },
+    "authors": [
+        {
+            "name": "Tim Long (Tigra Astronomy)",
+            "email": "Tim@tigra-astronomy.com",
+            "url": "https://github.com/sponsors/NameOfTheDragon",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "examples": [
+        {
+            "name": "blink",
+            "base": "examples/blink",
+            "files": [
+                "main.cpp"
+            ]
+        }
+    ]
+}
